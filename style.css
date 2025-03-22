@@ -1,35 +1,60 @@
-body{
+body {
     display: flex;
     justify-content: center;
+    height: 100vh;
+    align-items: center;
 }
 
-.weather{
-    color: white;
-    padding: 100px;
-    border-radius: 15px;
-    width: 400px;
-    background: linear-gradient(135deg, #1DD2AF, #4B67E2);;
+.cube{
+    width: 350px;
+    border: solid black 1px;
 }
 
-button{
-    padding: 25px;
-    border-radius: 50px;
-}
-
-input{
-    padding: 15px;
-    border-radius: 30px;
-}
-
-
-.csom{
-    font-size: 35px;
-    text-align: center;
-}
-
-
-
-.thesetwo{
-    font-size: 25px;
+.score{
     display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.bluea {
+    color: blue;
+}
+
+.greena {
+    color: green;
+}
+
+.reda {
+    color: red;
+}
+
+.buttonsa {
+    margin: 30px;
+    
+}
+
+.player-one {
+    background-color: blue;
+    color: black;
+    padding: 10px;
+}
+
+.player-two {
+    background-color: red;
+    color: black;
+    padding: 10px;
+}
+
+.reset {
+    background-color: green;
+    color: black;
+    padding: 10px;
+}
+
+.play {
+    margin: 15px;
+}
+
+.use {
+    margin: 50px;
 }
